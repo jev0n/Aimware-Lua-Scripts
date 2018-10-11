@@ -7,7 +7,7 @@ function OverWrite()
 		r,g,b = 255,0,0 -- Red
 	end
 	draw.Color (r,g,b, 255)
-	drwa.Text (15,600, "OverWrite")
+	draw.Text (15,600, "OverWrite")
 end
 
 callbacks.Register("Draw", "OverWrite", OverWrite)
